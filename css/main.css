@@ -66,19 +66,19 @@ h6 {
 	margin-top:32px;
 }
 
-a:link{
+nav ul li a:link{
 	color: #7b0003;
 }
 
-a:visited{
-	color: #2d2a95;
+nav ul li a:visited{
+	color: #150401;
 }
 
-a:hover{
+nav ul li a:hover{
 	color: #f4f4f4;
 }
 
-a:active{
+nav ul li a:active{
 	color: #d4a017;
 }
 
@@ -86,11 +86,21 @@ nav ul li {
 	background: rgba(123, 0, 3, .5);
 	display: inline;
 	list-style-type: none;
-	width: 200px;
+	width: 127px;
 	margin: 0%;
 	overflow: hidden;
 	padding: 15px 10px 15px 10px;
 	max-width: 100%;
+}
+
+#intro {
+	background-color: rgba(245, 237, 217, 0.5);
+	border: 3px solid #7b0003;
+	border-radius: 10px;
+	padding: .5%;
+	margin: 0% 0% 2% 2%;
+	width: 95%;
+	box-shadow: 5px 5px 5px #150401;
 }
 
 #facebook {
@@ -106,16 +116,6 @@ nav ul li {
 #youtube {
 	float: right;
 	max-width: 100%;
-}
-
-#intro {
-	background-color: rgba(245, 237, 217, 0.5);
-	border: 3px solid #7b0003;
-	border-radius: 10px;
-	padding: .5%;
-	margin: 0% 0% 2% 2%;
-	width: 95%;
-	box-shadow: 5px 5px 5px #150401;
 }
 
 #apollo {
@@ -142,7 +142,7 @@ li {
 	margin-left: 20px;
 }	
 
-#stallions_container, #mares_container, #foals_container, #sale_container {
+ol li a {
 	border: 3px solid #7b0003;
 	display: block;
 	height: 244px;
@@ -150,15 +150,15 @@ li {
 	outline: 0;
 }
 
-#stallions a:visited {
-	border-color: #2d2a95;
+ol li a:visited {
+	border-color: #150401;
 }
 
-#stallions a:hover {
+ol li a:hover {
 	border-color: #f4f4f4;
 }
 
-a:active {
+ol li a:active {
 	border-color: #d4a017;
 }
 
@@ -217,6 +217,22 @@ a:active {
 	margin-right: auto;
 	margin-left: auto;
 	box-shadow: 5px 5px 5px #150401;
+}
+
+h4 a:link{
+	color: #7b0003;
+}
+
+h4 a:visited{
+	color: #150401;
+}
+
+h4 a:hover{
+	color: #f4f4f4;
+}
+
+h4 a:active{
+	color: #d4a017;
 }
 
 aside {
