@@ -66,19 +66,19 @@ h6 {
 	margin-top:32px;
 }
 
-nav ul li a:link{
+nav ul li a:link {
 	color: #7b0003;
 }
 
-nav ul li a:visited{
+nav ul li a:visited {
 	color: #150401;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
 	color: #f4f4f4;
 }
 
-nav ul li a:active{
+nav ul li a:active {
 	color: #d4a017;
 }
 
