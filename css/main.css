@@ -1,0 +1,264 @@
+body {
+	font: 100%/1.5 'Cantata One', serif;
+	max-width: 1248px;
+	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	background-image: url("../images/barnwood_bg.jpg");
+	background-repeat: repeat;
+	background-position: center top;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+p {
+	font-family: 'Cantata One', serif;
+	color: #150401;
+}
+
+h1 {
+	font-family: 'Alice', serif;
+	font-size: 2.85em;
+	color: #f4f4f4;
+	text-shadow: 1.5px 1.5px 1.5px #150401;
+	width: 50.8076923076923%;
+	margin-top: 2%;
+}
+
+h2 {
+	font-family: 'Cantata One', serif;
+	font-size: 1.75em;
+	color: #f4f4f4;
+	text-shadow: 1.5px 1.5px 1.5px #150401;
+	width: 50.8076923076923%;
+	margin-top: .0615384615385%;
+}
+
+h3 {
+	font-family: 'Cantata One', serif;
+	font-size: 1.5em;
+	color: #f4f4f4;
+	text-shadow: 1.5px 1.5px 1.5px #150401;
+	margin-top: 2%;
+}
+
+h4 {
+	font-family: 'Cantata One', serif;
+	font-size: 1em;
+	color: #7b0003;
+	margin-top: 20px;
+}
+
+h5 {
+	font-family: 'Cantata One', serif;
+	font-size: 1.75em;
+	color: #f4f4f4;
+	text-shadow: 1.5px 1.5px 1.5px #150401;
+	margin-top:5%;
+	padding-left: 16%;
+}
+
+h6 {
+	font-family: 'Cantata One', serif;
+	font-size: 1.5em;
+	color: #f4f4f4;
+	margin-top:32px;
+}
+
+a:link{
+	color: #7b0003;
+}
+
+a:visited{
+	color: #2d2a95;
+}
+
+a:hover{
+	color: #f4f4f4;
+}
+
+a:active{
+	color: #d4a017;
+}
+
+nav ul li {
+	background: rgba(123, 0, 3, .5);
+	display: inline;
+	list-style-type: none;
+	width: 200px;
+	margin: 0%;
+	overflow: hidden;
+	padding: 15px 10px 15px 10px;
+	max-width: 100%;
+}
+
+#facebook {
+	float: right;
+	max-width: 100%;
+}
+
+#twitter {
+	float: right;
+	max-width: 100%;
+}
+
+#youtube {
+	float: right;
+	max-width: 100%;
+}
+
+#intro {
+	background-color: rgba(245, 237, 217, 0.5);
+	border: 3px solid #7b0003;
+	border-radius: 10px;
+	padding: .5%;
+	margin: 0% 0% 2% 2%;
+	width: 95%;
+	box-shadow: 5px 5px 5px #150401;
+}
+
+#apollo {
+	float: right;
+	max-width: 100%;
+}	
+
+#gypsian {
+	float: left;
+	max-width: 100%;
+}	
+
+ol {
+	list-style-type: none;
+	width: 890px;
+	margin: 10px auto;
+	overflow: hidden;
+	padding: 5px;
+}
+
+li {	
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+}	
+
+#stallions_container, #mares_container, #foals_container, #sale_container {
+	border: 3px solid #7b0003;
+	display: block;
+	height: 244px;
+	width: 415px;
+	outline: 0;
+}
+
+#stallions a:visited {
+	border-color: #2d2a95;
+}
+
+#stallions a:hover {
+	border-color: #f4f4f4;
+}
+
+a:active {
+	border-color: #d4a017;
+}
+
+#bottom {
+	-moz-column-count: 4;
+	-moz-column-gap: 36px;
+}
+
+#stallions {
+	color: #dbc497;
+	font-size: 1em;
+	background-color: rgba(245, 237, 217, 0.5);
+	border: 3px solid #7b0003;
+	border-radius: 10px;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 5px 5px 5px #150401;
+}
+
+#mares {
+	color: #dbc497;
+	font-size: 1em;
+	background-color: rgba(245, 237, 217, 0.5);
+	border: 3px solid #7b0003;
+	border-radius: 10px;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 5px 5px 5px #150401;
+}
+
+#foals {
+	color: #dbc497;
+	font-size: 1em;
+	background-color: rgba(245, 237, 217, 0.5);
+	border: 3px solid #7b0003;
+	border-radius: 10px;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 5px 5px 5px #150401;
+}
+
+#sale {
+	color: #dbc497;
+	font-size: 1em;
+	background-color: rgba(245, 237, 217, 0.5);
+	border: 3px solid #7b0003;
+	border-radius: 10px;
+	padding: 3.333%;
+	width: 95.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 5px 5px 5px #150401;
+}
+
+aside {
+	list-style-type: none;
+	width: 900px;
+	margin: 10px auto;
+	overflow: hidden;
+	padding: 10px;
+	max-width: 300%;
+	color: #150401;
+}
+
+form {
+	float: left;
+	clear: left;
+	margin: 16px auto;
+}
+
+footer {
+	text-align: center;
+}
+
+/* =Media Queries
+================================================================== */
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width:959px) {
+		#top {
+	background-color: rgba(50, 28, 18, 0.5);
+		}
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#top {
+	background-color: rgba(212, 160, 23, 0.5);
+		}
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#top {
+	background-color: rgba(123, 0, 3, 0.5);
+		}
+}
