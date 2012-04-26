@@ -57,11 +57,11 @@
 		<section>
 			<div>
 				<h5>Horse Photo Gallery</h5>
-				<ol>
-					<li>><a href="images/horse1.jpg" title="Tango 1"><img src="images/horse1.jpg" alt="horse1"></a></li>
+				<ol id="gallery">
+					<li><a href="images/horse1.jpg" title="Tango 1"><img src="images/horse1.jpg" alt="horse1"></a></li>
 					<li><a href="images/horse2.jpg" title="Tango 2"><img src="images/horse2.jpg" alt="horse2"></a></li>
-					<li>><a href="images/horse3.jpg" title="Tango 3"><img src="images/horse3.jpg" alt="horse3"></a></li>
-					<li>><a href="images/horse4.jpg" title="Tango 4"><img src="images/horse4.jpg" alt="horse4"></a></li>
+					<li><a href="images/horse3.jpg" title="Tango 3"><img src="images/horse3.jpg" alt="horse3"></a></li>
+					<li><a href="images/horse4.jpg" title="Tango 4"><img src="images/horse4.jpg" alt="horse4"></a></li>
 				</ol>
 			</div>	
 		</section>
@@ -98,17 +98,97 @@
 			</div>
 		</section>	
 		
-		<aside>
-			<h6>Contact Us Now!</h6>
-			<ul>
-				<li>Fill out contact form</li>
-				<li>Name</li>
-				<li>Address</li>
-				<li>Phone Number</li>
-				<li>Email Address</li>
-				<li>Sign up now!</li>
-			</ul>
-		</aside>
+		
+		<section id="reserve">
+			<aside>
+				<h6><a href="mailto:bjohns@fullsail.edu?subject=Brochure-Request">Contact Us!</a></h6>
+			</aside>
+			<table summary="Contact Info">
+				<tr>
+					<th>Name</th>
+					<th>Phone</th>
+					<th>Email</th>
+					<th>Street Address</th>
+					<th>City, State, Zip</th>
+				</tr>
+				<tr>
+					<td>Brent Johns</td>
+					<td>208 555 1212</td>
+					<td>bjohns@fullsail.edu</td>
+					<td>1577 N. Linder Rd., Ste 143</td>
+					<td>Kuna, Idaho 83634</td>
+				</tr>
+			</table>
+		</section>
+		
+		<form method="get" action="mailto:bjohns@fullsail.edu">
+				
+			<div>
+				<label for="name_first">First Name:</label>
+				<input type="text" name="name_first" id="name_first"/>
+			</div>
+					
+			<div>
+				<label for="name_last">Last Name:</label>
+				<input type="text" name="name_last" id="name_last"/>
+			</div>
+					
+			<div>
+				<label for="phone">Phone Number:</label>
+				<input type="text" name="phone" id="phone"/>
+			</div>
+					
+			<div>
+				<label for="email">Email Address:</label>
+				<input type="text" name="email" id="email"/>
+			</div>
+					
+			<div id="regarding_box">
+				<label for="regarding">Regarding</label> 
+			</div>
+					
+			<div>
+				<select name="regarding" id="regarding">
+					<option>General Inquiry</option>
+					<option>Purchase Inquiry</option>
+					<option>Suggestion</option>
+					<option>Site Error</option>
+					<option>Legal</option>
+					<option>Press</option>
+				</select>
+			</div>	
+					
+			<div id="message_box">
+				<label for="message">Message</label>
+				<textarea rows="15" cols="50" name="message" id="message"></textarea>
+			</div>
+					
+			<div id="interested">
+				<p>I am interesting in the following:</p>
+				<input type="checkbox" name="gypsy" id="gypsy"/>
+				<label for="gypsy">Gypsy Sport Horses</label>
+			</div>
+					
+			<div>
+				<input type="checkbox" name="friesian" id="friesian"/>
+				<label for="friesian">Friesian Sport Horses</label>
+			</div>
+					
+			<div>
+				<input type="checkbox" name="inutero" id="inutero"/>
+				<label for="hunting">In Utero Foals</label>
+			</div>
+					
+			<div>
+				<input type="checkbox" name="custom" id="custom"/>
+				<label for="kayaking">Custom Foals</label>
+			</div>
+					
+			<div id="submit">
+				<button type="submit" name="submit" class="button">Send message</button>
+			</div>
+		</form>
+		
 		<footer>
 			<p>&copy; Copyright 2012 Indian Creek Ranch. All Rights Reserved - Web Design by Brent Johns/TFM Design</p>
 		</footer>

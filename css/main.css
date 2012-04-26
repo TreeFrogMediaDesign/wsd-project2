@@ -1,7 +1,7 @@
 /*---------------------------------Nav Elements-----------------------*/
 body {
 	font: 100%/1.5 'Cantata One', serif;
-	max-width: 1248px;
+	max-width: 78em;
 	margin: 0 auto;
 	margin-left: auto;
 	margin-right: auto;
@@ -21,7 +21,7 @@ h1 {
 	font: 'Alice', serif;
 	font-size: 2.85em;
 	color: #f4f4f4;
-	text-shadow: 1.5px 1.5px 1.5px #150401;
+	text-shadow: .09375em .09375em .09375em #150401;
 	width: 50.8076923076923%;
 	margin-top: 2%;
 }
@@ -30,7 +30,7 @@ h2 {
 	font: 'Cantata One', serif;
 	font-size: 1.75em;
 	color: #f4f4f4;
-	text-shadow: 1.5px 1.5px 1.5px #150401;
+	text-shadow: .09375em .09375em .09375em #150401;
 	width: 50.8076923076923%;
 	margin-top: .0615384615385%;
 }
@@ -39,7 +39,7 @@ h3 {
 	font: 'Cantata One', serif;
 	font-size: 1.5em;
 	color: #f4f4f4;
-	text-shadow: 1.5px 1.5px 1.5px #150401;
+	text-shadow: .09375em .09375em .09375em #150401;
 	margin-top: 2%;
 }
 
@@ -47,23 +47,24 @@ h4 {
 	font: 'Cantata One', serif;
 	font-size: 1em;
 	color: #7b0003;
-	margin-top: 20px;
+	margin-top: 1.25em;
 }
 
 h5 {
 	font: 'Cantata One', serif;
 	font-size: 1.75em;
 	color: #f4f4f4;
-	text-shadow: 1.5px 1.5px 1.5px #150401;
+	text-shadow: .09375em .09375em .09375em #150401;
 	margin-top:5%;
-	padding-left: 16%;
+	text-align: center;
 }
 
 h6 {
 	font: 'Cantata One', serif;
 	font-size: 1.5em;
 	color: #f4f4f4;
-	margin-top:32px;
+	margin-top:3em;
+	text-align: center;
 }
 
 /*-----------------------------------Nav Bar--------------------*/
@@ -88,18 +89,19 @@ nav ul li {
 	background: rgba(123, 0, 3, .5);
 	display: inline;
 	list-style-type: none;
-	width: 127px;
+	width: 7.9375em;
 	margin: 0%;
 	overflow: hidden;
-	padding: 15px 10px 15px 10px;
+	padding: .9375em .56em .9375em .56em;
 	max-width: 100%;
+	border: .0625em solid #150401;
 }
 
 nav ul li a {
 	text-decoration: none;
 	display: block;
-	height: 30px;
-	line-height: 30px;
+	height: 1.875em;
+	line-height: 1.875em;
 	text-align: center;
 	color: #150401;
 }
@@ -117,11 +119,11 @@ nav ul li a {
 #intro {
 	background-color: rgba(245, 237, 217, 0.5);
 	border: 3px solid #7b0003;
-	border-radius: 10px;
+	border-radius: .625em;
 	padding: .5%;
 	margin: 0% 0% 2% 2%;
 	width: 95%;
-	box-shadow: 5px 5px 5px #150401;
+	box-shadow: 3125em 3125em 3125em #150401;
 }
 
 #facebook {
@@ -164,23 +166,27 @@ nav ul li a {
 ol {
 	list-style-type: none;
 	width: 100%;
-	margin: 10px auto;
+	margin: .625em auto;
 	overflow: hidden;
 	padding: 0.400641025641%;
 }
 
+#gallery {
+	margin-left: 13.5%;
+}	
+
 li {	
 	float: left;
 	overflow: hidden;
-	margin-top: 10px;
-	margin-left: 20px;
+	margin-top: .625em;
+	margin-left: 1.25em;
 }	
 
 ol li a {
-	border: 3px solid #7b0003;
+	border: .1875em solid #7b0003;
 	display: block;
-	height: 244px;
-	width: 415px;
+	height: 15.25em;
+	width: 25.9375em;
 	outline: 0;
 }
 
@@ -199,60 +205,59 @@ ol li a:active {
 /*-----------------------------------Bottom Section------------------*/
 #bottom {
 	-moz-column-count: 4;
-	-moz-column-gap: 36px;
+	-moz-column-gap: 2.25em;
 }
 
 #stallions {
 	color: #dbc497;
 	font-size: 1em;
 	background-color: rgba(245, 237, 217, 0.5);
-	border: 3px solid #7b0003;
-	border-radius: 10px;
+	border: .1875em solid #7b0003;
+	border-radius: .625em;
 	padding: 3.333%;
 	width: 95.8461538461538%;
 	margin-right: auto;
 	margin-left: auto;
-	box-shadow: 5px 5px 5px #150401;
+	box-shadow: .3125em .3125em .3125em #150401;
 }
 
 #mares {
 	color: #dbc497;
 	font-size: 1em;
 	background-color: rgba(245, 237, 217, 0.5);
-	border: 3px solid #7b0003;
-	border-radius: 10px;
+	border: .1875em solid #7b0003;
+	border-radius: .625em;
 	padding: 3.333%;
 	width: 95.8461538461538%;
 	margin-right: auto;
 	margin-left: auto;
-	box-shadow: 5px 5px 5px #150401;
+	box-shadow: .3125em .3125em .3125em #150401;
 }
 
 #foals {
 	color: #dbc497;
 	font-size: 1em;
 	background-color: rgba(245, 237, 217, 0.5);
-	border: 3px solid #7b0003;
-	border-radius: 10px;
+	border: .1875em solid #7b0003;
+	border-radius: .625em;
 	padding: 3.333%;
 	width: 95.8461538461538%;
 	margin-right: auto;
 	margin-left: auto;
-	box-shadow: 5px 5px 5px #150401;
-
+	box-shadow: .3125em .3125em .3125em #150401;
 }	
 
 #sale {
 	color: #dbc497;
 	font-size: 1em;
 	background-color: rgba(245, 237, 217, 0.5);
-	border: 3px solid #7b0003;
-	border-radius: 10px;
+	border: .1875em solid #7b0003;
+	border-radius: .625em;
 	padding: 3.333%;
 	width: 95.8461538461538%;
 	margin-right: auto;
 	margin-left: auto;
-	box-shadow: 5px 5px 5px #150401;
+	box-shadow: .3125em .3125em .3125em #150401;
 }
 
 h4 a:link{
@@ -276,26 +281,94 @@ text-decoration: none;
 }
 
 /*-------------------------------------Form Section-------------------*/
-aside {
-	list-style-type: none;
-	width: 900px;
-	margin: 10px auto;
-	overflow: hidden;
-	padding: 10px;
-	max-width: 300%;
-	color: #150401;
+table {
+	border-collapse: collapse;
+	border: .0625em solid #150401;
+	margin: 1em auto;
 }
 
+td {
+	border: .0625em solid #150401;
+	background-color: rgba(245, 237, 217, 0.5);
+	padding: 0.3em;
+}
+
+th {
+	text-align: left;
+	background-color: rgba(50, 28, 18, 0.5);
+	color: #f1f1f1;
+	padding: 0.3em;
+}	
+
 form {
+	color: #150401;
+	font-size: 1em;
+	background-color: rgba(245, 237, 217, 0.5);
+	border: .1875em solid #7b0003;
+	border-radius: .625em;
+	padding: 3.333%;
+	width: 35.8461538461538%;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: .3125em .3125em .3125em #150401;
 	float: left;
 	clear: left;
-	margin: 16px auto;
+	margin: 1em 1em 1em 28.5%;
+}
+
+#name_first {
+	width: 100%;
+	float: left;
+}
+
+#name_last {
+	width: 100%;
+	float: left;
+}
+
+#phone {
+	width: 100%;
+	float: left;
+}
+
+#email {
+	width: 100%;
+	float: left;
+}
+
+#regarding_box {
+	margin-top: 2.5em;
+}	
+
+#message_box {
+	margin-top: 1.5em;
+}	
+
+#message {
+	width: 100%;
+	float: left;
+	margin-bottom: 1.5em;
+}
+
+#submit {
+	float: right;
+	margin-top: 1.5em;
 }
 
 /*---------------------------------Footer------------------------------*/
 footer {
-	text-align: center;
+	
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
 }
+
+footer p {
+	color: #ffffff;
+	margin: 0;
+	padding: .3125em .625em;
+	text-align: center;
+}	
 
 /* =Media Queries
 ================================================================== */
@@ -314,7 +387,7 @@ footer {
 			font: 'Alice', serif;
 			font-size: 2.85em;
 			color: #f4f4f4;
-			text-shadow: 1.5px 1.5px 1.5px #150401;
+			text-shadow: .09375em .09375em .09375em #150401;
 			width: 75.8076923076923%;
 			margin-top: 2%;
 		}
@@ -323,14 +396,14 @@ footer {
 			font: 'Cantata One', serif;
 			font-size: 1.75em;
 			color: #f4f4f4;
-			text-shadow: 1.5px 1.5px 1.5px #150401;
+			text-shadow: .09375em .09375em .09375em #150401;
 			width: 99.8076923076923%;
 			margin-top: .0615384615385%;
 		}
 		
 		#bottom {
 			-moz-column-count: 1;
-			-moz-column-gap: 24px;
+			-moz-column-gap: 1.5em;
 			width: 93.5%;
 		}
 }
@@ -349,7 +422,7 @@ footer {
 			font: 'Alice', serif;
 			font-size: 2.5em;
 			color: #f4f4f4;
-			text-shadow: 1.5px 1.5px 1.5px #150401;
+			text-shadow: .09375em .09375em .09375em #150401;
 			width: 95.8076923076923%;
 			margin-top: 2%;
 		}
@@ -358,7 +431,7 @@ footer {
 			font: 'Cantata One', serif;
 			font-size: 1.75em;
 			color: #f4f4f4;
-			text-shadow: 1.5px 1.5px 1.5px #150401;
+			text-shadow: .09375em .09375em .09375em #150401;
 			width: 75.8076923076923%;
 			margin-top: .0615384615385%;
 		}
@@ -377,7 +450,7 @@ footer {
 		
 		#bottom {
 			-moz-column-count: 1;
-			-moz-column-gap: 24px;
+			-moz-column-gap: 1.5em;
 			width: 95.5%;
 		}
 }
@@ -396,7 +469,7 @@ footer {
 			font: 'Alice', serif;
 			font-size: 2.0em;
 			color: #f4f4f4;
-			text-shadow: 1.5px 1.5px 1.5px #150401;
+			text-shadow: .09375em .09375em .09375em #150401;
 			width: 95.8076923076923%;
 			margin-top: 2%;
 		}
@@ -405,7 +478,7 @@ footer {
 			font: 'Cantata One', serif;
 			font-size: 1.75em;
 			color: #f4f4f4;
-			text-shadow: 1.5px 1.5px 1.5px #150401;
+			text-shadow: .09375em .09375em .09375em #150401;
 			width: 95.8076923076923%;
 			margin-top: .0615384615385%;
 		}
@@ -424,7 +497,7 @@ footer {
 		
 		#bottom {
 			-moz-column-count: 1;
-			-moz-column-gap: 10px;
+			-moz-column-gap: .625em;
 			width: 95.5%;
 		}
 }
